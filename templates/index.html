@@ -1,7 +1,26 @@
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group">
-    <!-- wp:site-title /-->
-    <!-- wp:site-tagline /-->
-    <!-- wp:post-content /-->
-</div>
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group">
+    <!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true}} -->
+    <div class="wp-block-query">
+        <!-- wp:post-template -->
+            <!-- wp:group {"style":{"spacing":{"padding":{"top":"2rem","bottom":"2rem"}}}} -->
+            <div class="wp-block-group" style="padding-top:2rem;padding-bottom:2rem">
+                <!-- wp:post-title {"isLink":true} /-->
+                <!-- wp:post-date {"style":{"typography":{"fontFamily":"var:preset|font-family|monospace","fontSize":"0.875rem"}}} /-->
+                <!-- wp:post-excerpt {"moreText":"Read Terminal Output \u003e"} /-->
+            </div>
+            <!-- /wp:group -->
+        <!-- /wp:post-template -->
+        
+        <!-- wp:query-pagination {"paginationArrow":"arrow","layout":{"type":"flex","justifyContent":"space-between"}} -->
+        <!-- wp:query-pagination-previous /-->
+        <!-- wp:query-pagination-next /-->
+        <!-- /wp:query-pagination -->
+    </div>
+    <!-- /wp:query -->
+</main>
 <!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
