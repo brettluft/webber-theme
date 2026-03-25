@@ -3,3 +3,4 @@ When we have a real design, we will replace this with an actual screenshot.png (
 Adding a small change to trigger the new OAuth pipeline.
 Updating to re-trigger the OAuth pipeline after permissions fix.
 Testing tailnet lock key integration.
+Testing OAuth permissions with tag:ci
