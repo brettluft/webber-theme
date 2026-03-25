@@ -4,3 +4,4 @@ Adding a small change to trigger the new OAuth pipeline.
 Updating to re-trigger the OAuth pipeline after permissions fix.
 Testing tailnet lock key integration.
 Testing OAuth permissions with tag:ci
+Testing pre-signed authkey for Tailnet lock.
