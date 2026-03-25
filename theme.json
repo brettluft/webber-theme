@@ -111,6 +111,16 @@
             "right": "1.5rem"
           }
         }
+      },
+      "core/navigation": {
+        "color": {
+          "text": "var(--wp--preset--color--primary)"
+        },
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--monospace)",
+          "fontWeight": "bold"
+        },
+        "css": ".wp-block-navigation__responsive-container.is-menu-open { padding: 2rem; }"
       }
     }
   }
