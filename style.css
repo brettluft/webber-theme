@@ -9,3 +9,12 @@ Requires PHP: 7.4
 Text Domain: webber-theme
 Tags: full-site-editing, custom-background, custom-colors, custom-logo, custom-menu, block-patterns, block-styles
 */
+
+/* Mobile Navigation Overlay Padding */
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content {
+    padding: 2rem !important;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item {
+    margin-bottom: 1rem;
+}
