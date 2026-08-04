@@ -18,3 +18,13 @@ Tags: full-site-editing, custom-background, custom-colors, custom-logo, custom-m
 .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item {
     margin-bottom: 1rem;
 }
+
+/* Light Mode Overrides */
+@media (prefers-color-scheme: light) {
+    body {
+        --wp--preset--color--background: #ffffff;
+        --wp--preset--color--foreground: #111111;
+        --wp--preset--color--primary: #0088aa; /* Darker cyan for better contrast on light background */
+        --wp--preset--color--secondary: #f0f0f0;
+    }
+}
